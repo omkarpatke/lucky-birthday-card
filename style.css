@@ -1,116 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-background-color: beige;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #e0e0e0;
+    margin-top: 2rem;
 }
-h1{
-    margin-left: 38rem;
-    color:black;
-}
-
 .container{
-   
-   margin-top: -1rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    background-color: antiquewhite;
-    width: 34vw;
-    margin-left: 32rem;
-box-shadow: 1px 2px 3px;
-}
-.container-main{
-    background-color: antiquewhite;
-    flex-direction: column;
-}
-.heading{
-    margin-left: 10rem;
-}
-
-h2{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffff ;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 1px 18px rgb(146 161 176 / 15%);
     
 }
-.para{
-    display: flex;
-    justify-content:flex-start;
-    margin-left: 5rem;
-   
+h1{
+    color: #FB9E9F;
 }
-
-.input1{
+input{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 18vw;
-    margin-left: 7rem;
+    width: 22vw;
+    height: 6vh;
     margin-bottom: 2rem;
-    font-size: 1.3rem;
-}
-#date{
-    height: 5vh;
-    border-radius: 5px;
-}
-.input2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 18vw;
-    margin-left:7rem;
-    margin-bottom: 2rem;
-    font-size: 1.3rem;
-
-}
-#number{
-    height: 5vh;
-    border-radius: 5px;
+    font-size: 1.1rem;
+    box-shadow: 0 1px 18px rgb(146 161 176 / 15%);
+    border: none;
+    border-radius: 6px;
 }
 .btn{
-    display: flex;
-    justify-content: center;
-    width: 8vw;
-    height: 1.9rem;
-    margin-bottom: 2rem;
-    margin-left: 12rem;
-    font-size: 1.1rem;
-    align-items: center;
-    border: 1px solid;
-    background-color: white;
-
-   
+    color: #F9FAFB;
+    background-color: #FB9E9F;
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    opacity: 4;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 1.5rem;
 }
 .btn:hover{
-    background-color: black;
-    color: white;
+    border: 2px solid #FB9E9F;
+    color: #FB9E9F;
+    background-color: white;
 }
 .answer{
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 1rem;
 }
 .congrats{
-    height: 14vh;
-    width: 19vw;
+    height: 20vh;
+    width: 22vw;
     display: flex;
     justify-content: center;
     justify-self: center;
-    margin-left: 7rem;
-    margin-bottom: 2rem;
 }
 .hidden{
     display: none;
 }
 .sorry{
-    height: 16vh;
-    width: 19vw;
+    height: 20vh;
+    width: 22vw;
     display: flex;
     justify-content: center;
     justify-self: center;
-    margin-left: 7rem;
-    margin-bottom: 2rem;
 }
 .display{
     display: none;
